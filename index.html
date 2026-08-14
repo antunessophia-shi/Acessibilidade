@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Acessibilidade para Todos</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Acessibilidade para Todos</h1>
+
+        <p>
+            Um espaço digital bonito, acessível e acolhedor para todos.
+        </p>
+
+        <nav aria-label="Menu principal">
+            <a href="#inicio">Início</a>
+            <a href="#recursos">Recursos</a>
+            <a href="#sobre">Sobre</a>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <section id="inicio" class="principal">
+
+            <h2>Bem-vindo!</h2>
+
+            <p>
+                Este site foi criado pensando principalmente em pessoas
+                com deficiência visual. Você pode aumentar o tamanho
+                das letras, diminuir o tamanho ou ouvir o conteúdo da página.
+            </p>
+
+            <div class="botoes">
+
+                <button id="aumentarFonte" aria-label="Aumentar tamanho da fonte">
+                    Aumentar fonte +
+                </button>
+
+                <button id="diminuirFonte" aria-label="Diminuir tamanho da fonte">
+                    Diminuir fonte -
+                </button>
+
+                <button id="lerPagina" aria-label="Ler página em voz alta">
+                    🔊 Ler página
+                </button>
+
+                <button id="pararLeitura" aria-label="Parar leitura">
+                    ⏹ Parar leitura
+                </button>
+
+                <button id="altoContraste" aria-label="Ativar alto contraste">
+                    🌓 Alto contraste
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <section id="recursos">
+
+            <h2>Recursos de acessibilidade</h2>
+
+            <div class="cards">
+
+                <article class="card">
+                    <span class="icone">🔊</span>
+
+                    <h3>Leitor de voz</h3>
+
+                    <p>
+                        O site pode ler os textos em voz alta,
+                        facilitando o acesso às informações.
+                    </p>
+                </article>
+
+
+                <article class="card">
+                    <span class="icone">🔎</span>
+
+                    <h3>Fonte maior</h3>
+
+                    <p>
+                        Aumente o tamanho das letras para facilitar
+                        a leitura e a visualização do conteúdo.
+                    </p>
+                </article>
+
+
+                <article class="card">
+                    <span class="icone">🌈</span>
+
+                    <h3>Alto contraste</h3>
+
+                    <p>
+                        As cores foram escolhidas para facilitar
+                        a identificação dos textos e botões.
+                    </p>
+                </article>
+
+
+                <article class="card">
+                    <span class="icone">⌨️</span>
+
+                    <h3>Navegação fácil</h3>
+
+                    <p>
+                        Os elementos possuem foco visível e podem
+                        ser utilizados pelo teclado.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <section id="sobre" class="sobre">
+
+            <h2>Por que a acessibilidade é importante?</h2>
+
+            <p>
+                A acessibilidade digital permite que todas as pessoas possam utilizar sites, aplicativos e tecnologias de forma simples, segura e independente. Um site acessível deve apresentar textos claros, cores com bom contraste, navegação intuitiva e recursos que atendam a diferentes necessidades, tornando a experiência digital mais inclusiva, confortável e acolhedora para todos.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            © 2026 - Acessibilidade para Todos
+        </p>
+
+        <p>
+            Tecnologia feita para incluir.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
